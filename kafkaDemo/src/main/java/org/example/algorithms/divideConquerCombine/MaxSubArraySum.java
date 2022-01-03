@@ -1,4 +1,4 @@
-package org.example.algorithms;
+package org.example.algorithms.divideConquerCombine;
 
 /**
  * 使用分支法求出最小子数组和
