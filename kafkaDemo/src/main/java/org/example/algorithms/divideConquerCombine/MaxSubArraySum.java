@@ -33,7 +33,7 @@ public static class Result {
         int left_sum = Integer.MIN_VALUE;
         int sum = 0;
         int max_left = 0;
-        for (int i = mid; i > low; i--) {
+        for (int i = mid; i >= low; i--) {
             sum += ans[i];
             if (sum > left_sum) {
                 left_sum = sum;
@@ -43,7 +43,7 @@ public static class Result {
         sum = 0;
         int max_right = 0;
         int right_sum = Integer.MIN_VALUE;
-        for (int j = mid + 1; j < high; j++) {
+        for (int j = mid + 1; j <= high; j++) {
             sum += ans[j];
             if (sum > right_sum) {
                 right_sum = sum;
