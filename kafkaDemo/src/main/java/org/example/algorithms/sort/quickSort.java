@@ -1,6 +1,7 @@
 package org.example.algorithms.sort;
 
 /**
+ * 快速排序
  * @Author: MaiYu
  * @Date: Create in 22:30 2022/1/4
  */
